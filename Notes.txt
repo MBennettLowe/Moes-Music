@@ -1,0 +1,28 @@
+A music database
+Enter the songs you own
+Enter the songs you’d like to play
+Store the song info, images and links to Youtube
+
+
+
+I'm committing to ending the tutorial loop and finally work on my first project. 
+I'm interested in creating an App that consists of all of my music which is currently on a dying iPod.
+The App will have a search feature and use Cards and API's to display the songs title, image and link to YouTube.  I'm interested in using Express, Node and Mongodb.
+What's the best way for me to import my songs into a db? 
+Do I have to type out each song name and pass it within a POST request?
+
+1. Exported Itunes library as .XML file - Learned that exported data is not in true XML format
+2. Converted .XML to JSON using XML2js package - Learned that this package converted to a JSON Object. JSON property names must be double-quoted strings. Used JSON.stringify.
+https://stackoverflow.com/questions/10904448/node-to-parse-xml-using-xml2js
+3. Learn how to clean up XML file and extract desired content - Got sample XML in correct format and created some test examples
+4. Learn how to clean up converted JSON file to add to a file. Looking for data to have the valid strucure of {key: data}
+
+5. Then create file for JSON data to save persistently. Add to converted data to Library.JSON
+https://www.youtube.com/watch?v=6iZiqQZBQJY
+6. Once converted test read File with buffer - https://www.youtube.com/watch?v=6iZiqQZBQJY
+
+Header removals from XML file
+
+
+
+    
